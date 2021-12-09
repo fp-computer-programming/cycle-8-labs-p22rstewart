@@ -2,6 +2,6 @@
 
 def party_inv(lst):
     for name in lst:
-        print("Hi {0}, You're invited to my party").format(int(name))
+        print("Hi {0}, You're invited to my party".format(name))
 
-invites(["Michael", "Jake", "Steve"])
+party_inv(["Michael", "Jake", "Steve"])
