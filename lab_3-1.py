@@ -12,6 +12,7 @@ def sum_to(n):
     while x <= int(n):
         total += x
         x += 1
+    return total
 
-num = input("Enter a #: ")
-print(sum_to(num))
+n = input("Enter a #: ")
+print(sum_to(n))
